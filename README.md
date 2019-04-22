@@ -1,5 +1,6 @@
 # Maternal_Mortality
-Mod2 Linear Regression Project
+Flatiron School // Mod2 Linear Regression Project <br>
+By: Samantha Jackson
 
 ## Purpose
 This project aims to test if there is a linear relationship between world development indicators and Maternal Mortality Ratio using an ordinary linear regression model. After a number of iterations, the best results, with an R-squared of .893, came from using a log transformed dependant variable.
@@ -30,6 +31,16 @@ The only feature that looks somewhat normal is Compulsory Education.  Other feat
 ![pairplot](Visualizations/pair_plot.png)
 
 This pairplot reiterates the need to transform features since few of the relationships between Maternal Mortality Rate and the other features are linear.  
+
+## Model Training
+As a baseline, I threw all untransformed features into a model to see the results, and the R^2 wasn't great.  Testing my observations from EDA, I ran the same model with a log-transformed dependant variable and my R^2 increased about 20%.
+
+![first_models](Model_Summaries/summary_1vs2.png)
+
+After a few iterations of the model, I realized I may be able to improve the model by adding Continent as a feature.  I took a look at Maternal Mortality Ratios by continent.
+
+![hist by continent](Visualizations/MMR_Histogram_byContinent.png)
+
 
 
 
