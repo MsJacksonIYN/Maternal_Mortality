@@ -41,7 +41,16 @@ After a few iterations of the model, I realized I may be able to improve the mod
 
 ![hist by continent](Visualizations/MMR_Histogram_byContinent.png)
 
+I thought the distributions looked different enough to add continent as a feature.  However, I wanted to check interactions between continent and the other features.  
 
+![interactions](Visualizations/interactions.png)
+
+Continent doesn't have a clear additive relationship for any of the features, which makes sense, so I created interaction terms for each feature.
+
+## Final Model
+My final model is a product of many iterations of feature testing and cleaning (removing insignificant features). I was able to increase my R^2 from .652 in my base model, to .902. Residuals were mostly normally distributed, with some outliers, and mostly random as shown below.
+
+![final model](Model_Summaries/Model_w_resids.png)
 
 
 
