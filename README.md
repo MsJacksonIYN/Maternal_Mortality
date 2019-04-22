@@ -52,8 +52,5 @@ My final model is a product of many iterations of feature testing and cleaning (
 
 ![final model](Model_Summaries/Model_w_resids.png)
 
-### Maternal Mortality Ratios around the world
-![choropleth](Visualizations/Choro_logMMR.png)
-
 
 
