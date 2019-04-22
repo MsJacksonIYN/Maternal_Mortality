@@ -52,5 +52,14 @@ My final model is a product of many iterations of feature testing and cleaning (
 
 ![final model](Model_Summaries/Model_w_resids.png)
 
+#### Coefficient Interpretations
+- For every 1 unit increase in Teen Pregnancy, Maternal Mortality Ratio increases .4%
+- 1 unit increase Immunization decreases MMR 2%
+- 1 unit increase Internet Use decreases MMR 2%
+- For 1% increase in GDP per capita, MMR decreases .4%
+- A country in  Asia (vs South America or Africa) decreases MMR 50%
+- Europe decreases MMR 91%
+- North America decreases MMR 35%
+- Oceania decreases MMR 52%
 
 
